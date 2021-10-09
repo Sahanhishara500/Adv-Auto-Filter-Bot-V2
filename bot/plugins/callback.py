@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"ඔයා හොයන <code>{query}</code>ට file {(len_results)}ක් තියෙනව. මෙතනින් ඔයා හොයන්නෙ මොකක්ද කියල තෝරගන්න.\n \n <a href="https://t.me/slofficialcommunity">©️ＳＬＯＦＦＩＣＩＡＬ</a>"
+    text=f"ඔයා හොයන <code>{query}</code>ට file {(len_results)}ක් තියෙනව. මෙතනින් ඔයා හොයන්නෙ මොකක්ද කියල තෝරගන්න./n ©️ＳＬＯＦＦＩＣＩＡＬ"
         
     try:
         await update.message.edit(
